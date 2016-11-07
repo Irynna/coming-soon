@@ -1,0 +1,175 @@
+
+.sky{
+width:100vw;
+height:58vh;
+background-color: #b9d6ef;
+display: flex;
+flex-direction: column;
+
+align-items:center;
+}
+.sea{
+width:100vw;
+height:42vh;
+background-color: #266b97;
+display:flex;
+justify-content:center;
+flex-direction: column;
+}
+
+.cloud{
+background-image: url("img/cloud.PNG");
+width: 98.28vh;
+height:7.8vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
+}
+.ice{
+background-image: url("img/ice.PNG");
+height:62vh;
+width: 42vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+    margin-bottom: -39vh;
+	bottom: 39vh;
+}
+.line{
+background-image: url("img/line.PNG");
+height:13px;
+width: 100vw;
+background-position: center;
+background-size: cover;
+position: absolute;
+top: 58vh;
+
+}
+.ship{
+background-image: url("img/ship.PNG");
+height:20px;
+width: 50px;
+background-position: center;
+background-size: cover;
+position: absolute;
+top: 57vh;
+left: 30vw;
+}
+.coming-soon{
+padding-left: 5px;
+margin-top: 4.55vh;
+margin-bottom: 1.3vh;
+font-family: 'Houschka Pro';
+font-size: 9.36vh;
+color: #fefefe;
+text-shadow:2px 4px 1px #9ab2c7;
+font-weight: bold;
+}
+.subscribe{
+margin-bottom: 1.3vh;
+color: #266b97;
+font-size: 1.82vh;
+font-family: 'Houschka Pro';
+}
+.input{
+height:5.2vh;
+
+}
+input{
+height: 4.94vh;
+width: 31.2vh;
+border-radius: 4px 4px;
+content: hjkhkjh;
+font-family:Arial;
+font-size: 1.56vh;
+color: #808080;
+padding-left: 1.56vh;
+border: none;
+box-sizing: padding-box;
+}
+button{
+margin-left: 10px;
+font-family: 'Houschka Pro';
+font-weight: bold;
+font-size: 1.82vh;
+color: #fefefe;
+border: 1px solid;
+border-color:#f8a426;
+height: 4.94vh;
+width: 11.7vh;
+
+border-radius: 4px 4px;
+background-image: -ms-linear-gradient(top, #FDDF5F 0%, #F8A426 100%);
+
+background-image: -moz-linear-gradient(top, #FDDF5F 0%, #F8A426 100%);
+
+background-image: -o-linear-gradient(top, #FDDF5F 0%, #F8A426 100%);
+
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FDDF5F), color-stop(100, #F8A426));
+
+background-image: -webkit-linear-gradient(top, #FDDF5F 0%, #F8A426 100%);
+
+background-image: linear-gradient(to bottom, #FDDF5F 0%, #F8A426 100%);
+
+}
+
+.elips{
+display:flex;
+margin-top: -107px;
+justify-content:center;
+
+}
+.elips> div{
+border-radius: 50%;
+width:70px;
+height:70px;
+background-color: #b9d6ef;
+margin-left: 20px;
+margin-right: 20px;
+
+margin-bottom: 5px;
+position: relative; 
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.elips > div>span{
+font-family: 'Houschka Medium';
+font-size: 24px;
+color: #266b97;
+}
+.data{
+display: flex;
+justify-content:center;
+align-items:center;
+}
+.data > div{
+
+font-family: 'Houschka Pro';
+font-size: 24px;
+color: #f3f3f3;
+position: relative;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+/*animation*/
+.object {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+	
+}
+/*move to right*/
+.ship:hover{
+    transform: translate(-150px,0);
+    -webkit-transform: translate(-150px,0); /** Chrome & Safari **/
+    -o-transform: translate(-150px,0); /** Opera **/
+    -moz-transform: translate(-150px,0); /** Firefox **/
+
+}
